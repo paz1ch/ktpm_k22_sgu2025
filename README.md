@@ -1,1 +1,1 @@
-# ktpm_k22_sgu2025
+# ktpm_sgu_2025
