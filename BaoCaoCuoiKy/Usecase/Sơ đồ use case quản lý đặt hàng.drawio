@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Page-1" id="26P2-7iSbPBbs9DLKUNQ">
+    <mxGraphModel dx="1042" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PFgM6SMM-uOcHBs8CYiR-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PFgM6SMM-uOcHBs8CYiR-1" target="PFgM6SMM-uOcHBs8CYiR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PFgM6SMM-uOcHBs8CYiR-1" value="&lt;b&gt;Quản trị&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PFgM6SMM-uOcHBs8CYiR-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="PFgM6SMM-uOcHBs8CYiR-2" target="PFgM6SMM-uOcHBs8CYiR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PFgM6SMM-uOcHBs8CYiR-2" value="Tìm kiếm đơn đặt hàng" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PFgM6SMM-uOcHBs8CYiR-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="PFgM6SMM-uOcHBs8CYiR-5" target="PFgM6SMM-uOcHBs8CYiR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PFgM6SMM-uOcHBs8CYiR-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="PFgM6SMM-uOcHBs8CYiR-5" target="PFgM6SMM-uOcHBs8CYiR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PFgM6SMM-uOcHBs8CYiR-5" value="Xóa đơn đặt hàng" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="145" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PFgM6SMM-uOcHBs8CYiR-6" value="Xem danh sách&lt;div&gt;đơn đặt hàng&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="260" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PFgM6SMM-uOcHBs8CYiR-11" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="215" y="145" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PFgM6SMM-uOcHBs8CYiR-12" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="130" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PFgM6SMM-uOcHBs8CYiR-13" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="220" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
