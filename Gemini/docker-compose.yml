@@ -1,0 +1,31 @@
+services:
+  gemini-web:
+    image: gemini-web
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    environment:
+      # Connect to SQL Server on the Host Machine
+      - DB_SERVER=host.docker.internal
+      # UPDATE THESE WITH YOUR LOCAL SQL SERVER CREDENTIALS
+      - DB_NAME=20221207-20221217
+      - DB_USER=gemini_user
+      - DB_PASS=123456
+    networks:
+      - gemini-net
+
+#  db:
+#    image: mcr.microsoft.com/mssql/server:2019-latest
+#    environment:
+#      - ACCEPT_EULA=Y
+#      - SA_PASSWORD=YourStrong!Passw0rd
+#    ports:
+#      - "1433:1433"
+#    networks:
+#      - gemini-net
+
+networks:
+  gemini-net:
+    driver: nat
