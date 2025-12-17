@@ -1,0 +1,26 @@
+name: Build .NET Framework
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v2
+
+    - name: Setup NuGet
+      uses: NuGet/setup-nuget@v2
+
+    - name: Restore NuGet Packages
+      run: nuget restore Gemini/Gemini.sln
+
+    - name: Build Solution
+      run: msbuild Gemini/Gemini.sln /p:Configuration=Release
