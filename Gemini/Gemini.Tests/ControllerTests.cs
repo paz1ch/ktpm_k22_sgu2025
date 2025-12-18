@@ -5,7 +5,7 @@ using System.Linq;
 namespace Gemini.Tests
 {
     [TestFixture]
-    public class GeminiControllerTests
+    public class ControllerTests
     {
         // 1. Test cho hàm tiện ích (Utility Method) - Không dính DB/Session
         [Test]
