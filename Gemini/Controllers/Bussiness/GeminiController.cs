@@ -48,9 +48,9 @@ namespace Gemini.Controllers.Bussiness
             DataReturn = new ResponseObj();
         }
 
-        protected static GeminiEntities DataContext = new GeminiEntities();
+        protected GeminiEntities DataContext = new GeminiEntities();
 
-        public static GeminiEntities DataGemini
+        public GeminiEntities DataGemini
         {
             get { return DataContext ?? (DataContext = new GeminiEntities()); }
         }
@@ -1069,6 +1069,18 @@ namespace Gemini.Controllers.Bussiness
                     AppendCharsCategory(item, append, charToAppend);
                 }
             }
+        }
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                if (DataContext != null)
+                {
+                    DataContext.Dispose();
+                    DataContext = null;
+                }
+            }
+            base.Dispose(disposing);
         }
     }
 }
