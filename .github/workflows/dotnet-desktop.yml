@@ -1,0 +1,30 @@
+name: .NET Framework CI
+
+on:
+  push:
+    branches: [ "master", "main" ]
+  pull_request:
+    branches: [ "master", "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v1.1
+
+    - name: Setup NuGet
+      uses: NuGet/setup-nuget@v1.0.5
+
+    - name: Restore NuGet Packages
+      run: nuget restore Gemini/Gemini.sln
+
+    - name: Build Solution
+      run: msbuild Gemini/Gemini.sln /p:Configuration=Release /p:Platform="Any CPU"
+
+    - name: Run Tests
+      run: dotnet test Gemini/Gemini.Tests/Gemini.Tests.csproj --no-build --configuration Release
