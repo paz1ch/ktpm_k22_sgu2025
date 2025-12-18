@@ -15,22 +15,26 @@ namespace Gemini.Tests
         public void Test_VerifyDir_ShouldCreateDirectory_IfNotExist()
         {
             // Arrange
-            string tempPath = Path.Combine(Path.GetTempPath(), "GeminiTestDir_" + System.Guid.NewGuid());
-            if (Directory.Exists(tempPath))
+            // VerifyDir strips the last part (filename) and creates the parent directory.
+            string targetDir = Path.Combine(Path.GetTempPath(), "GeminiTestDir_" + System.Guid.NewGuid());
+            string dummyFilePath = Path.Combine(targetDir, "dummy.txt");
+
+            if (Directory.Exists(targetDir))
             {
-                Directory.Delete(tempPath, true);
+                Directory.Delete(targetDir, true);
             }
 
             // Act
-            SUserController.VerifyDir(tempPath);
+            // Pass the full file path. VerifyDir should create 'targetDir'.
+            SUserController.VerifyDir(dummyFilePath);
 
             // Assert
-            Assert.IsTrue(Directory.Exists(tempPath));
+            Assert.IsTrue(Directory.Exists(targetDir));
 
             // Cleanup
-            if (Directory.Exists(tempPath))
+            if (Directory.Exists(targetDir))
             {
-                Directory.Delete(tempPath, true);
+                Directory.Delete(targetDir, true);
             }
         }
 
