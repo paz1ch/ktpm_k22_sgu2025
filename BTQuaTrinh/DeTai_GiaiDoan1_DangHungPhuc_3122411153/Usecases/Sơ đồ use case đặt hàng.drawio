@@ -1,0 +1,57 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Page-1" id="GHXqOIG8Mbcp4LWrzz5L">
+    <mxGraphModel dx="1042" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LveD_hmmy-7PLQXa6NIh-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LveD_hmmy-7PLQXa6NIh-1" target="LveD_hmmy-7PLQXa6NIh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LveD_hmmy-7PLQXa6NIh-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LveD_hmmy-7PLQXa6NIh-1" target="LveD_hmmy-7PLQXa6NIh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LveD_hmmy-7PLQXa6NIh-1" value="&lt;b&gt;Khách hàng&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LveD_hmmy-7PLQXa6NIh-9" value="&amp;lt;&amp;lt;Extend&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="LveD_hmmy-7PLQXa6NIh-2" target="LveD_hmmy-7PLQXa6NIh-7">
+          <mxGeometry x="-0.2157" y="39" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LveD_hmmy-7PLQXa6NIh-10" value="&amp;lt;&amp;lt;Extend&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="LveD_hmmy-7PLQXa6NIh-2" target="LveD_hmmy-7PLQXa6NIh-3">
+          <mxGeometry x="0.1344" y="21" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LveD_hmmy-7PLQXa6NIh-2" value="Mua thêm" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="100" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LveD_hmmy-7PLQXa6NIh-3" value="Tìm kiếm sản phẩm" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="140" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LveD_hmmy-7PLQXa6NIh-11" value="&amp;lt;&amp;lt;Extend&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="LveD_hmmy-7PLQXa6NIh-4" target="LveD_hmmy-7PLQXa6NIh-7">
+          <mxGeometry y="-20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LveD_hmmy-7PLQXa6NIh-4" value="Gửi đơn đặt hàng" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="220" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LveD_hmmy-7PLQXa6NIh-12" value="&amp;lt;&amp;lt;Extend&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="LveD_hmmy-7PLQXa6NIh-5" target="LveD_hmmy-7PLQXa6NIh-7">
+          <mxGeometry x="-0.1776" y="-20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LveD_hmmy-7PLQXa6NIh-5" value="Xóa hàng" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="340" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LveD_hmmy-7PLQXa6NIh-6" value="Thêm vào giỏ hàng" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LveD_hmmy-7PLQXa6NIh-7" value="Đặt hàng" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="220" width="140" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
